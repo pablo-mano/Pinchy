@@ -7,7 +7,7 @@
   "physical_build_validated": false,
   "note": "SHA-256 entries cover all package files except this manifest itself. Original mechanical part identifiers are preserved.",
   "file_count_excluding_manifest": 76,
-  "bytes_excluding_manifest": 133093254,
+  "bytes_excluding_manifest": 133092874,
   "files": [
     {
       "path": ".gitattributes",
@@ -96,8 +96,8 @@
     },
     {
       "path": "electronics/BOM.csv",
-      "bytes": 3860,
-      "sha256": "6f6d3c4a965b1a1c219714f40ad2d83a52408a659696df63bbffb77e94a4df9e"
+      "bytes": 3838,
+      "sha256": "da4be06be9295f36ccf527af8fba397f4f49ddc908378bb8e70238238fb79a9f"
     },
     {
       "path": "electronics/BOM.md",
@@ -156,8 +156,8 @@
     },
     {
       "path": "licenses/ADAFRUIT_MIC_CC_BY_SA_3.txt",
-      "bytes": 22597,
-      "sha256": "1f63e1f4676a433423b2c2ff1ccd9e80093f341f10b81f0ac0106342bc7bbe89"
+      "bytes": 22239,
+      "sha256": "075dad5e5fc96c27014fabc269f4f5732909cffd178a486f546d982b6cf86b74"
     },
     {
       "path": "licenses/THREE_MIT.txt",
