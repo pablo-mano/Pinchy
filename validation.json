@@ -4,7 +4,7 @@
   "date": "2026-09-26",
   "physical_build_validated": false,
   "remote_repository_created": true,
-  "pages_deployed": false,
+  "pages_deployed": true,
   "checks": [
     "All packaged 3MF, STL and STEP files match the current B/D1 source byte for byte.",
     "All four 3MF archives pass ZIP integrity checks.",

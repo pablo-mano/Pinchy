@@ -7,7 +7,7 @@
   "physical_build_validated": false,
   "note": "SHA-256 entries cover all package files except this manifest itself. Original mechanical part identifiers are preserved.",
   "file_count_excluding_manifest": 76,
-  "bytes_excluding_manifest": 133092874,
+  "bytes_excluding_manifest": 133093508,
   "files": [
     {
       "path": ".gitattributes",
@@ -51,8 +51,8 @@
     },
     {
       "path": "docs/BUILD_STATUS.md",
-      "bytes": 2829,
-      "sha256": "405d2a572f8b66d0472f0efe2c97f67f087dd6b76d4750eea0ed74f750b8ded4"
+      "bytes": 2882,
+      "sha256": "a230a30ae3f8641ad7de585c86078ddb12ae1cc7bedfe8c006762bd37f74fe71"
     },
     {
       "path": "docs/D1_INTERFACE_PL.md",
@@ -336,8 +336,8 @@
     },
     {
       "path": "publication.json",
-      "bytes": 247,
-      "sha256": "4e6f9116d6ba86402c45f821b7421ec7b24518fa730e70131c3ceb192d996edf"
+      "bytes": 829,
+      "sha256": "18c4448f9dae6b316787b3bde99b906a455a8c0d9a966ae9af8a7eb1d034aff4"
     },
     {
       "path": "site/.nojekyll",
@@ -351,8 +351,8 @@
     },
     {
       "path": "validation.json",
-      "bytes": 1827,
-      "sha256": "5d500d6b07bb55914659bfc16f5fb1af169bbff7a41e160e8ecabbdbe138149b"
+      "bytes": 1826,
+      "sha256": "0771c2483c73325c5c9f681a5f974f0f70d56034b015acf8c5143c739731f7e2"
     },
     {
       "path": "videos/Pinchy_EN.srt",

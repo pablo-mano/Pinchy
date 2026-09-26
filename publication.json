@@ -2,6 +2,18 @@
   "repository": "https://github.com/pablo-mano/Pinchy",
   "repository_created": true,
   "site": "https://pablo-mano.github.io/Pinchy/",
-  "pages_verified": false,
-  "firmware": "TODO — source code and device binaries intentionally excluded"
+  "pages_verified": true,
+  "firmware": "TODO — source code and device binaries intentionally excluded",
+  "verified_at_utc": "2026-09-26T08:37:03.823462+00:00",
+  "deployed_site_commit": "8085250bb599b3be9c08fbef944daa33065b3434",
+  "workflow_run": "https://github.com/pablo-mano/Pinchy/actions/runs/36230165648",
+  "checks": [
+    "Public repository accessible without sign-in",
+    "GitHub Pages workflow completed successfully",
+    "Live WebGL model loaded: 16 groups, 34 meshes",
+    "Assembled and All parts presets work",
+    "Auto-rotate changes camera position",
+    "Front bezel tooltip displays correct dimensions",
+    "Visual appearance and author attribution checked"
+  ]
 }

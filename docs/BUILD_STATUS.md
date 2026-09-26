@@ -10,7 +10,7 @@ Pinchy is a documented mechanical prototype for **Waveshare ESP32-S3-Touch-LCD-2
 | Battery | Protected 1S reference and documented connector/charging mismatch | Verified charging-current setting, exact compatible battery harness and polarity; measured operation on the actual board |
 | Firmware — TODO | Documentation only; no firmware source code or binaries | A Pinchy board port, reproducible build/flash instructions, tested audio/display integration and a firmware binary |
 | Voice and integrations | English/Polish concept films using OpenAI TTS | Wake-word detection, speech recognition, response generation, secure credentials, InPost/mail/calendar integrations and permissions |
-| Web explorer | Offline 3D view, rotation, 16 tooltips, explosion slider, D1 visualization | A GitHub repository and Pages deployment |
+| Web explorer | Offline and [public Pages](https://pablo-mano.github.io/Pinchy/) view; rotation, 16 part groups, explosion slider and D1 visualization | Recheck after future site changes |
 
 The films simulate parcel tracking, sending an email and editing a calendar. They do not prove those services are implemented on the device. “Hey Pinchy!” is the intended wake phrase and the spoken line in the film, not a supplied on-device detector.
 
