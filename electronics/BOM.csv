@@ -1,0 +1,22 @@
+reference,category,quantity,part,manufacturer_or_spec,status,notes,reference_url
+WS1,electronics,1,Waveshare ESP32-S3-Touch-LCD-2.1B,30697,Required / supplied by builder,Current mechanical reference; glass Ø71.8 mm. Not the flat 28169 model.,https://www.waveshare.com/esp32-s3-touch-lcd-2.1.htm
+MIC1,electronics,1,Adafruit SPH0645 I2S microphone,3421,Audio prototype,Matches reconstructed CAD; final holder and acoustic channel pending.,https://www.adafruit.com/product/3421
+AMP1,electronics,1,Adafruit MAX98357A I2S amplifier,3006,Audio prototype,Matches CAD PCB; terminal block reserved separately; VCC tap unverified.,https://www.adafruit.com/product/3006
+SPK1,electronics,1,Adafruit mini oval speaker 8 ohm 1 W,3923,Audio prototype,Matches CAD reference; final cradle and acoustic seal pending.,https://www.adafruit.com/product/3923
+BAT1,power,0–1,"Protected 1S LiPo, 1200 mAh reference",Adafruit 258,Conditional / not approved for direct connection,Reference pack permits <=500 mA charging; verify and adapt actual board charger and connector first.,https://www.adafruit.com/product/258
+RPD1,electronics,1,100 kΩ resistor,100k,Audio prototype,Microphone DOUT to GND pull-down; insulate the leads.,https://botland.com.pl/rezystory-przewlekane/20020-rezystor-justpi-tht-cf-weglowy-14w-100k-30szt-5904422329082.html
+J9C,cables,1,JST-SH 1.0 mm 12-pin breakout lead,SH1.0 12P,Verify supplied accessories,Check mating and pin-1 orientation; identify conductors by continuity.,https://kamami.pl/przewody-jst/1184455-przewod-jst-sh-10-12-pin-10cm-a-a-5906623447800.html
+J1C,cables,0–1,Battery harness mating the actual MX1.25 2-pin socket,TBD after inspection,Unresolved,Not JST-PH; verify connector housing and BAT+/GND; do not use RTC socket.,
+SIG,cables,as needed,Flexible stranded signal wire 30 AWG,insulation OD <=0.7 mm target,Prototype harness,Planning diameter; route lengths and final slack in cable_routes.json.,
+PWR,cables,as needed,Flexible stranded power/speaker wire 26–28 AWG,insulation and current to verify,Prototype harness,Twist OUT+/OUT−; neither speaker terminal is ground.,
+USB1,cables,1,USB data cable for programming,USB-C device end,Service,Plug body <=12×6 mm and <=15 mm long assumed by CAD.,
+USB2,cables,as needed,Verified audio-mode USB power lead,D+ and D− individually isolated,Unresolved,"A generic charge-only cable may short data lines; test individually, including between them.",
+PSU1,power,1,Regulated 5 V USB supply,load budget to verify,Bench supply,"Select after measuring board, display and audio current.",
+M2,hardware,4,M2 × 5 mm machine screws,head <=Ø3.8 × 2 mm,Required,Board mounting; check actual usable thread depth before tightening.,
+SC25,hardware,4,Ø2.5 × 25 mm screws for plastic,head <=Ø4.8 mm,Required,Enclosure; ordinary M2.5 machine screws are not an automatic substitute.,
+PAD,consumables,as needed,Soft glass support strips,compressible insulating material,Required / fit to sample,Nominal axial allowances ~0.2 mm front and ~0.4 mm rear; verify compression.,
+INS,consumables,as needed,"Heat-shrink, insulating tape, solder and flux",small joints,Assembly,"Do not obstruct microphone port, rails or latch.",
+PLA,printing,~150 g minimum,Raspberry Generic PLA,#C74565 visual target,Required,Four prepared plates total 148.36 g estimated; allow extra for retries.,
+DEC,electronics,TBD,Amplifier decoupling components,values after bench tests,Unresolved,No validated values or final board mounting solution supplied.,
+CHG,power,TBD,Charge-current adjustment components,after actual-board measurement,Unresolved,Do not select a resistor from a guessed board revision.,
+MOUNT,hardware,TBD,"Battery/audio holders, microphone gasket and speaker seal",next mechanical revision,Not yet designed,"Existing printable parts mount Waveshare, not the additional audio parts.",

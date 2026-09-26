@@ -1,0 +1,393 @@
+{
+  "project": "Pinchy",
+  "author": "Paweł Manowiecki",
+  "x": "@pawel_mano",
+  "prepared_date": "2026-09-26",
+  "mechanical_revision": "B/D1; Waveshare 30697",
+  "physical_build_validated": false,
+  "note": "SHA-256 entries cover all package files except this manifest itself. Original mechanical part identifiers are preserved.",
+  "file_count_excluding_manifest": 76,
+  "bytes_excluding_manifest": 133093254,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 104,
+      "sha256": "71f35e2b38844489bdb3e039eb5c17426d8c9466c045f5509555bd5acaca1950"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 756,
+      "sha256": "88c4ff46ccdea67094a2c3dc353bf741e1689c1e0abd76060df6939c4ec706c4"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 219,
+      "sha256": "ee6ca5d755194ade44186995ac2ad0b6474774fb40b1b573bef818b723ae964b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5199,
+      "sha256": "bb9a4469a6e82fdd283cbcd01ef90287e03af272efdb4e4321cd8e0aa81ab5b0"
+    },
+    {
+      "path": "README_PL.md",
+      "bytes": 3198,
+      "sha256": "ca0e74f7b7cb9cfa0a9bc9127691f34d9c86701236c6904c7c334fe3e411aaf9"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2837,
+      "sha256": "a6b1f5c5c0f13905ab74fce03bd6c327b11bcecea756aef0f0979008c45a9a6f"
+    },
+    {
+      "path": "TODO.md",
+      "bytes": 1610,
+      "sha256": "9d23b85a02eb24dfa74d41d7fd80649549c9bd845c82b7c2c83f3707c2f840aa"
+    },
+    {
+      "path": "docs/ASSEMBLY.md",
+      "bytes": 3862,
+      "sha256": "755792979f38ff33088b75e37ad3c9e3faed3de36965f829cefba766b2787086"
+    },
+    {
+      "path": "docs/BUILD_STATUS.md",
+      "bytes": 2829,
+      "sha256": "405d2a572f8b66d0472f0efe2c97f67f087dd6b76d4750eea0ed74f750b8ded4"
+    },
+    {
+      "path": "docs/D1_INTERFACE_PL.md",
+      "bytes": 4700,
+      "sha256": "61c8b6e5f5c1cd01d4e161683d47fbef5ca2f4255e5f2a71e608cba8094fc888"
+    },
+    {
+      "path": "docs/FIRMWARE.md",
+      "bytes": 2035,
+      "sha256": "1c57bfbc09a63c8fe1d36f32cb4e3dce06aab2c186d95563f4581cb1eb4a7666"
+    },
+    {
+      "path": "docs/PUBLISHING.md",
+      "bytes": 1710,
+      "sha256": "b29cbab4a3b4abbbbed05a49d97d0ed348afa9821500c093ddc6a1f33bd8625f"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 1447,
+      "sha256": "f7bb3cf16cd3c8308d0dee14ed85af0b3e47aeb0951a9a54f641eec9d88e3f7f"
+    },
+    {
+      "path": "electronics/01_connection_diagram.png",
+      "bytes": 401068,
+      "sha256": "4163d808e8f3dd8f46034a8169d9c26aae780b39be3f039e3de856774f76144b"
+    },
+    {
+      "path": "electronics/01_connection_diagram.svg",
+      "bytes": 26999,
+      "sha256": "53e688160a2460e388794d2d56d4b1edb50492b171187c27ad86f0a593a126e2"
+    },
+    {
+      "path": "electronics/02_cable_routing_plan.png",
+      "bytes": 313861,
+      "sha256": "f30bf39c00c7524e63bf3c97cf6c1112aa55a0400e6cea4f6c9055bc19019992"
+    },
+    {
+      "path": "electronics/02_cable_routing_plan.svg",
+      "bytes": 21344,
+      "sha256": "3020949fffbdd49483f45cdba23ac5b3f397da13d73538bbc08b88dcd67f916c"
+    },
+    {
+      "path": "electronics/BOM.csv",
+      "bytes": 3860,
+      "sha256": "6f6d3c4a965b1a1c219714f40ad2d83a52408a659696df63bbffb77e94a4df9e"
+    },
+    {
+      "path": "electronics/BOM.md",
+      "bytes": 5083,
+      "sha256": "01e584c179ad0e2754a51e0dc70fd4347c2cbe30d980fe6c030ddd677c3e4068"
+    },
+    {
+      "path": "electronics/Pinchy_cable_plan.glb",
+      "bytes": 27824440,
+      "sha256": "c0c6ec5addbcb3758121dd76290727f729f4df29af28a5e6b48345c3d533c8ef"
+    },
+    {
+      "path": "electronics/WIRING.md",
+      "bytes": 6154,
+      "sha256": "68beb6237868f434cf01950e631118438b69e6bd3aff056c48c4fccc0d17aa37"
+    },
+    {
+      "path": "electronics/WIRING_PL.md",
+      "bytes": 8596,
+      "sha256": "a40c0a06dc481a69ce1baed6a0d930ed25e9b2f035984b659bd4ee1a2c9967a7"
+    },
+    {
+      "path": "electronics/cable_routes.json",
+      "bytes": 4347,
+      "sha256": "ba1f4a1f89d7d67299f2cd7f6d30d8f5c999833a21efedf4b56939b03a33e55c"
+    },
+    {
+      "path": "electronics/connections.csv",
+      "bytes": 1051,
+      "sha256": "df222608440ec8f3e1bc76085b79cbd3f53414eee98a922e65bc4162f41aed6e"
+    },
+    {
+      "path": "images/D1-interface.png",
+      "bytes": 2212577,
+      "sha256": "1f0f7009c76d0557e04661bb08d846f9ecc16861eb4a9d1cf952c411269eb431"
+    },
+    {
+      "path": "images/D1-release.png",
+      "bytes": 2407345,
+      "sha256": "757d65de56a1af13ee6356f6ed0c87936eef4362a96c8f949200d258859f0f0c"
+    },
+    {
+      "path": "images/exploded-view.png",
+      "bytes": 405046,
+      "sha256": "4732145dfc95eb1995a5c265a0a0c09802b11aae6c7362824a0e38bdf85e4fa6"
+    },
+    {
+      "path": "images/pinchy.png",
+      "bytes": 1089138,
+      "sha256": "fdca844a64386f34f0a617b45c291565fed5cc8d5ea53691d5904a6179a7e570"
+    },
+    {
+      "path": "licenses/ADAFRUIT_CAD_MIT.txt",
+      "bytes": 1076,
+      "sha256": "f60436644e066301d4c2e8f1f0674a157b1f60e4fd5586717b99dde255cc18cd"
+    },
+    {
+      "path": "licenses/ADAFRUIT_MIC_CC_BY_SA_3.txt",
+      "bytes": 22597,
+      "sha256": "1f63e1f4676a433423b2c2ff1ccd9e80093f341f10b81f0ac0106342bc7bbe89"
+    },
+    {
+      "path": "licenses/THREE_MIT.txt",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "printing/README.md",
+      "bytes": 3029,
+      "sha256": "2ec4e3ab552a163d0574fa15891da1688655ac2e02eb43fb35a7a0e2bb59094d"
+    },
+    {
+      "path": "printing/README_PL.md",
+      "bytes": 4902,
+      "sha256": "50f8ca238ab3f61e7154a7b1399d2c71785062702c70061b60461115cdfd62da"
+    },
+    {
+      "path": "printing/plates/01_B_Proba_i_przyciski_P2S_PLA.3mf",
+      "bytes": 1208040,
+      "sha256": "6f7863bace4d64f98182351802d96ed50cf12cb3b9813c1306f18d9c7627ef16"
+    },
+    {
+      "path": "printing/plates/02_B_Obudowa_P2S_PLA.3mf",
+      "bytes": 5888689,
+      "sha256": "4ab280fa9b5a37c2f57e80c3da480497a40d013a2561e8607466bbe587c4acf5"
+    },
+    {
+      "path": "printing/plates/03_B_Nogi_i_szczypce_P2S_PLA.3mf",
+      "bytes": 13706873,
+      "sha256": "0fe5e0247e138d1d887b4b67006c0c9d4750bd5e28b85c1b931dd6bd033e4255"
+    },
+    {
+      "path": "printing/plates/04_D1_Proba_mocowania_P2S_PLA.3mf",
+      "bytes": 669503,
+      "sha256": "90e48bfc4ddb22383b2856f22d8cca5dacb0e87a5c66fa3d4442dba256631265"
+    },
+    {
+      "path": "printing/step/00_B_fit_ring_71p8.step",
+      "bytes": 41017,
+      "sha256": "1c6f8b2303553c8e3a409c0275e231096a893e08e9de3dac9fb915935d478101"
+    },
+    {
+      "path": "printing/step/00_D1_body_coupon.step",
+      "bytes": 126974,
+      "sha256": "bc35b26cb74bb930e0fdf29ef729cccd5acd5d1823579eb66078075446eaa7ff"
+    },
+    {
+      "path": "printing/step/00_D1_receiver_coupon.step",
+      "bytes": 265019,
+      "sha256": "e50b8c9d37d0f5b6ab0cf6fb4c5e0facc7ed2fc3e56c7b4e9d5fdc54c2e00cc8"
+    },
+    {
+      "path": "printing/step/01_crab_front.step",
+      "bytes": 958287,
+      "sha256": "a89b98f9a54143694151ad955debbe19e1e2523a1aaff81f148772c9f2139a1a"
+    },
+    {
+      "path": "printing/step/02_crab_rear.step",
+      "bytes": 1063824,
+      "sha256": "586ac5b6fbe177c475100f1f8f5c38c3cdd91c7ac815e3ab36bc0fd41e4afc72"
+    },
+    {
+      "path": "printing/step/03_crab_base.step",
+      "bytes": 2525325,
+      "sha256": "6886414e1145a6504711bf715298f04841d1aa3860abeedd8a2993004fa9c71b"
+    },
+    {
+      "path": "printing/step/04_claw_L.step",
+      "bytes": 211423,
+      "sha256": "3a11724c89b928908eda092b2462e6cb396244c92c19271fc36192bed9f4aceb"
+    },
+    {
+      "path": "printing/step/05_claw_R.step",
+      "bytes": 209428,
+      "sha256": "2678a1aef5312bcde03afc93909450ba0f1da9c6dd7599f566c47cbb711079b3"
+    },
+    {
+      "path": "printing/step/06_button_BOOT.step",
+      "bytes": 51248,
+      "sha256": "7d12e7e63837b8b3a27e6ee92ef679fbe586ad66d9fabf4ec4354e2aeaf0a4e1"
+    },
+    {
+      "path": "printing/step/07_button_RESET.step",
+      "bytes": 56071,
+      "sha256": "526476f6eeaf7dd2d78220163a3bb52ebb64980a3ccc71c33653aa1d3bf50a98"
+    },
+    {
+      "path": "printing/step/08_power_slider.step",
+      "bytes": 165303,
+      "sha256": "f024b2de43206c514217d74dc8207d19a50f5bc083fa47745c78afc49b6e8ada"
+    },
+    {
+      "path": "printing/step/09_rear_service_cover.step",
+      "bytes": 640029,
+      "sha256": "edb878a1fe5c11649b61646593baa0716c6b8c7bf6f4ed2a88d911dc47ef1121"
+    },
+    {
+      "path": "printing/step/D1_receiver_interface_TEMPLATE.step",
+      "bytes": 265019,
+      "sha256": "e50b8c9d37d0f5b6ab0cf6fb4c5e0facc7ed2fc3e56c7b4e9d5fdc54c2e00cc8"
+    },
+    {
+      "path": "printing/stl/00_B_fit_ring_71p8.stl",
+      "bytes": 1279984,
+      "sha256": "4acc8ca6708db650e9d0b25cb8b93b76274b6e88d11e5aed74c66ec8cca4f76f"
+    },
+    {
+      "path": "printing/stl/00_D1_body_coupon.stl",
+      "bytes": 141284,
+      "sha256": "55d9eec05b89190e39a7b12218870fd89c73aee6aaddead34b8cbe8ee7950a8f"
+    },
+    {
+      "path": "printing/stl/00_D1_receiver_coupon.stl",
+      "bytes": 534684,
+      "sha256": "7a80a427c1f10592c57b8a1c4bf5ede26decc1d6a56b9fd19a3f1f4957dfeabc"
+    },
+    {
+      "path": "printing/stl/01_crab_front.stl",
+      "bytes": 2168584,
+      "sha256": "6be9cb92b2f9e49c45aca63921cfaf95839f68619da51554b0f9051565f84129"
+    },
+    {
+      "path": "printing/stl/02_crab_rear.stl",
+      "bytes": 780284,
+      "sha256": "ec2c793241f75d01cf45d62f8dd16e80f41a723c1792ac96feeea6ce1f36ce30"
+    },
+    {
+      "path": "printing/stl/03_crab_base.stl",
+      "bytes": 5374584,
+      "sha256": "5127e840a34aece5fa4fda04a976dfddd39581327487ebb3b2551775e86ac86d"
+    },
+    {
+      "path": "printing/stl/04_claw_L.stl",
+      "bytes": 2322884,
+      "sha256": "5e62128ab7fcac81a12acb027f038d4959fffaff908cb85f8970f4964c1f5ee0"
+    },
+    {
+      "path": "printing/stl/05_claw_R.stl",
+      "bytes": 2284684,
+      "sha256": "e2dfcb6c043616ec318d41bfb714ea9c2ff3b102a88b2df0fdaf702a555893b0"
+    },
+    {
+      "path": "printing/stl/06_button_BOOT.stl",
+      "bytes": 505484,
+      "sha256": "89c7ba15ca0498205bbe319a870bf8c7520a334f57d412a67e9353912a8a55f1"
+    },
+    {
+      "path": "printing/stl/06_button_BOOT_spare.stl",
+      "bytes": 505484,
+      "sha256": "89c7ba15ca0498205bbe319a870bf8c7520a334f57d412a67e9353912a8a55f1"
+    },
+    {
+      "path": "printing/stl/07_button_RESET.stl",
+      "bytes": 530684,
+      "sha256": "f2b7c79273bbc61e56cff7705a60ef019ff71331b1c51837e58aecda1e803850"
+    },
+    {
+      "path": "printing/stl/07_button_RESET_spare.stl",
+      "bytes": 530684,
+      "sha256": "f2b7c79273bbc61e56cff7705a60ef019ff71331b1c51837e58aecda1e803850"
+    },
+    {
+      "path": "printing/stl/08_power_slider.stl",
+      "bytes": 33484,
+      "sha256": "5fad96006cbd5daeb718ec2ef3a1ca139353a776127e4507d95f66db5a0b0ff4"
+    },
+    {
+      "path": "printing/stl/08_power_slider_spare.stl",
+      "bytes": 33484,
+      "sha256": "5fad96006cbd5daeb718ec2ef3a1ca139353a776127e4507d95f66db5a0b0ff4"
+    },
+    {
+      "path": "printing/stl/09_rear_service_cover.stl",
+      "bytes": 2780184,
+      "sha256": "d03b7daabf0a4ab7011161e9dfe7eed6f6db9a29167353788aa5571bbb5b038c"
+    },
+    {
+      "path": "publication.json",
+      "bytes": 247,
+      "sha256": "4e6f9116d6ba86402c45f821b7421ec7b24518fa730e70131c3ceb192d996edf"
+    },
+    {
+      "path": "site/.nojekyll",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "site/index.html",
+      "bytes": 11705872,
+      "sha256": "1de434331a89796b987bf84497c0ac258efe686cd3e655d9e1eea5cdabd06758"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 1827,
+      "sha256": "5d500d6b07bb55914659bfc16f5fb1af169bbff7a41e160e8ecabbdbe138149b"
+    },
+    {
+      "path": "videos/Pinchy_EN.srt",
+      "bytes": 658,
+      "sha256": "a2a6a09ba5be4252f698f3ce26b035ee4aa86c2ac45281d0799ed0896f12c436"
+    },
+    {
+      "path": "videos/Pinchy_EN_1080p.mp4",
+      "bytes": 15806754,
+      "sha256": "bd87131f9ce6d5a07efdf36063a63900efa6c07f4e7b39a81b0be7277881c91c"
+    },
+    {
+      "path": "videos/Pinchy_EN_720p.mp4",
+      "bytes": 3488505,
+      "sha256": "facf7dd85bceaeef5eee3496670f47e3bd1f78a8f87b831506141d6786e9c12b"
+    },
+    {
+      "path": "videos/Pinchy_PL.srt",
+      "bytes": 644,
+      "sha256": "53e2d97c5b4992f70ed2e8fb88c251c825370ff4d8c6d4be5977cd6f95f88b71"
+    },
+    {
+      "path": "videos/Pinchy_PL_1080p.mp4",
+      "bytes": 15918702,
+      "sha256": "d84dcf04f87b3e81edd1fa9e0639b752e1ecbaa027bbcf9e441000251c46adc8"
+    },
+    {
+      "path": "videos/Pinchy_PL_720p.mp4",
+      "bytes": 3516119,
+      "sha256": "61b050c7a1bfd5bdb724d1f848e5eac0751c1e6f639f0975cddcc02faf66d9ac"
+    },
+    {
+      "path": "videos/README.md",
+      "bytes": 1293,
+      "sha256": "b87ca84b06c27fd5a03df4419e9e9280f76409294e4270ce318fa84d9838f658"
+    }
+  ]
+}

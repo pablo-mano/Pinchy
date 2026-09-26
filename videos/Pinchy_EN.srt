@@ -1,0 +1,23 @@
+1
+00:00:07,450 --> 00:00:11,944
+YOU: Hey Pinchy! Check the InPost parcel and email Ola if it's ready to collect.
+
+2
+00:00:12,455 --> 00:00:17,873
+PINCHY: It's ready at the locker. I've emailed Ola with the pickup location and deadline.
+
+3
+00:00:18,392 --> 00:00:21,876
+YOU: Now check my calendar. What's on the schedule today?
+
+4
+00:00:23,961 --> 00:00:30,891
+PINCHY: Team meeting at ten, then a client call at noon. You're free after one, so there's room for something fun.
+
+5
+00:00:31,401 --> 00:00:33,676
+YOU: I'm going to the theater at two.
+
+6
+00:00:34,409 --> 00:00:39,384
+PINCHY: Theater added for two. I'll remind you an hour before. Enjoy the show!

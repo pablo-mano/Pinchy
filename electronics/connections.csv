@@ -1,0 +1,14 @@
+net,from,to,status
+MIC_3V3,Waveshare J9.6 3V3,SPH0645 3V,proposed
+GND,Waveshare J9.1 or J9.5 GND,SPH0645 GND and MAX98357 GND,proposed
+BCLK,Waveshare J9.3 GPIO19,SPH0645 BCLK and MAX98357 BCLK,shared with native USB
+WS,Waveshare J9.4 GPIO20,SPH0645 LRCLK and MAX98357 LRC,shared with native USB
+MIC_DATA,SPH0645 DOUT,Waveshare J9.10 GPIO44,UART mux must enable external connector
+AMP_DATA,Waveshare J9.9 GPIO43,MAX98357 DIN,UART mux must enable external connector
+MIC_SEL,SPH0645 SEL,SPH0645 GND,left channel
+MIC_DATA_PULLDOWN,SPH0645 DOUT,100k resistor to GND,additional passive not included in CAD
+AMP_POWER,Waveshare VCC net at U5 VIN or C14 VCC side,MAX98357 VIN,physical solder point and current capacity to verify
+SPK_PLUS,MAX98357 OUT+,Speaker terminal 1,BTL neither terminal is GND
+SPK_MINUS,MAX98357 OUT-,Speaker terminal 2,BTL neither terminal is GND
+BAT_PLUS,Protected LiPo BAT+,Waveshare J1.1 BAT,after charger-current modification and polarity check
+BAT_MINUS,Protected LiPo BAT-,Waveshare J1.2 GND,verify matching connector and polarity

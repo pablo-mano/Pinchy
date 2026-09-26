@@ -1,0 +1,20 @@
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+key.txt
+*.key
+*.pem
+node_modules/
+__pycache__/
+*.pyc
+*.blend1
+*.log
+_site/
+
+# Firmware publication is deferred; documentation remains in docs/.
+/firmware/
+*.bin
+*.elf
+*.uf2

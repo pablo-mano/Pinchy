@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "project": "Pinchy",
+  "date": "2026-09-26",
+  "physical_build_validated": false,
+  "remote_repository_created": true,
+  "pages_deployed": false,
+  "checks": [
+    "All packaged 3MF, STL and STEP files match the current B/D1 source byte for byte.",
+    "All four 3MF archives pass ZIP integrity checks.",
+    "Both film editions passed full decoding, timing and audio-sync checks; the delivered four MP4 files match those validated exports.",
+    "Selected final PL/EN film frames and both wiring drawings were visually inspected.",
+    "The explorer passed offline interaction checks: loading, presets, tooltip selection and autorotation.",
+    "The Pages HTML matches the final standalone file, with bundled reference-model notices.",
+    "No firmware source code or flashable device binaries are included; firmware is TODO.",
+    "No common credential patterns, private configuration files or standalone source MP3 found in the publication allowlist.",
+    "All 140 local Markdown links resolve within the package; no file exceeds 100 MiB."
+  ],
+  "print_counts": {
+    "3mf": 4,
+    "stl": 15,
+    "step": 13
+  },
+  "video": {
+    "pl": {
+      "status": "PASS",
+      "duration_seconds": 58.666666666666664,
+      "frames": 1408
+    },
+    "en": {
+      "status": "PASS",
+      "duration_seconds": 58.666666666666664,
+      "frames": 1408
+    }
+  },
+  "explorer": {
+    "status": "PASS",
+    "project": "Pinchy",
+    "checks": [
+      "Offline HTML loads 16 groups / 34 meshes",
+      "Pinchy title and branding",
+      "Paweł Manowiecki attribution and X link",
+      "Assembled preset moves to zero explosion",
+      "D1 dock preset",
+      "Auto-rotate changes camera position",
+      "Front bezel tooltip shows the correct part",
+      "Microphone selection opens correct details"
+    ]
+  }
+}

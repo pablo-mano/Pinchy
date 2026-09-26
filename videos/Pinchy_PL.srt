@@ -1,0 +1,23 @@
+1
+00:00:07,450 --> 00:00:11,928
+TY: Hey Pinchy! Sprawdź paczkę w InPoście i powiadom Olę mailem.
+
+2
+00:00:12,455 --> 00:00:17,874
+PINCHY: Paczka czeka w automacie. Wysłałem Oli maila z informacją o odbiorze.
+
+3
+00:00:18,392 --> 00:00:22,749
+TY: Sprawdź jeszcze mój kalendarz. Jak wygląda dzisiejszy dzień?
+
+4
+00:00:23,961 --> 00:00:30,891
+PINCHY: O dziesiątej spotkanie zespołu, w południe rozmowa z klientem. Po trzynastej masz już wolne.
+
+5
+00:00:31,401 --> 00:00:33,638
+TY: O czternastej idę do teatru.
+
+6
+00:00:34,409 --> 00:00:39,389
+PINCHY: Teatr wpisany na czternastą. Przypomnę godzinę wcześniej. Miłego spektaklu!
