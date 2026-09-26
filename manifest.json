@@ -7,7 +7,7 @@
   "physical_build_validated": false,
   "note": "SHA-256 entries cover all package files except this manifest itself. Original mechanical part identifiers are preserved.",
   "file_count_excluding_manifest": 76,
-  "bytes_excluding_manifest": 133093508,
+  "bytes_excluding_manifest": 133141978,
   "files": [
     {
       "path": ".gitattributes",
@@ -346,8 +346,8 @@
     },
     {
       "path": "site/index.html",
-      "bytes": 11705872,
-      "sha256": "1de434331a89796b987bf84497c0ac258efe686cd3e655d9e1eea5cdabd06758"
+      "bytes": 11754342,
+      "sha256": "cc176b02d0638c92d9ac3e62b5267c4939ea4d8050dbf6cb2228ab6d2476134f"
     },
     {
       "path": "validation.json",
