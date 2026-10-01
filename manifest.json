@@ -6,8 +6,8 @@
   "mechanical_revision": "B/D1; Waveshare 30697",
   "physical_build_validated": false,
   "note": "SHA-256 entries cover all package files except this manifest itself. Original mechanical part identifiers are preserved.",
-  "file_count_excluding_manifest": 92,
-  "bytes_excluding_manifest": 157727794,
+  "file_count_excluding_manifest": 93,
+  "bytes_excluding_manifest": 157671194,
   "files": [
     {
       "path": ".gitattributes",
@@ -66,8 +66,8 @@
     },
     {
       "path": "docs/PUBLISHING.md",
-      "bytes": 1710,
-      "sha256": "b29cbab4a3b4abbbbed05a49d97d0ed348afa9821500c093ddc6a1f33bd8625f"
+      "bytes": 2264,
+      "sha256": "d9c19a329986f1c6523342088afb3685cd5d711e26a189581829f714150cd58f"
     },
     {
       "path": "docs/VALIDATION.md",
@@ -96,28 +96,28 @@
     },
     {
       "path": "electronics/03_physical_connections.csv",
-      "bytes": 844,
-      "sha256": "dacd0a3813796395320f001bdd4c1fa1e8833b4930a1197949fa661796cf8924"
+      "bytes": 799,
+      "sha256": "6d49fe61e528d3eb88b63fa7d7c447384a9dbb71b871a55b2f53273829f93f59"
     },
     {
       "path": "electronics/03_physical_connections.html",
-      "bytes": 1397921,
-      "sha256": "d34f8c7f6d384ca3a134388c69dc82e8d3285d28d424169267351485d2d83ba4"
+      "bytes": 1413367,
+      "sha256": "76015d2b62ff3decd056f42ba04bdc5995ddcb28c732b9196901d700d2624537"
     },
     {
       "path": "electronics/03_physical_connections.pdf",
-      "bytes": 6345398,
-      "sha256": "07e68a8e4292ffa396a886f3c5932ca1f3f9e353c4d221bc25149a8f93dae03f"
+      "bytes": 6308324,
+      "sha256": "827c2dd387678f5bbb21dbcc099048324246d9c6481b0a0629ea695e5f003976"
     },
     {
       "path": "electronics/03_physical_connections.png",
-      "bytes": 5764933,
-      "sha256": "f31d0572acdded187f3df7860e52ed153cf12471f7f4316fcaf5eb1c36ecd5df"
+      "bytes": 5734174,
+      "sha256": "7430918e596ec79ae9cb29cc2cfeb23baf2b73794491c74b07a6e806d13e7d85"
     },
     {
       "path": "electronics/03_physical_connections.svg",
-      "bytes": 1389016,
-      "sha256": "57c64fc079398946993a07c47dce8e7c72b4d5be801caea3d8e6111b3ba14e6c"
+      "bytes": 1388950,
+      "sha256": "7757851b5529ff74429157559f345037902828a55de7cae50f44f54a8008367c"
     },
     {
       "path": "electronics/BOM.csv",
@@ -156,8 +156,8 @@
     },
     {
       "path": "electronics/physical_wiring/README.md",
-      "bytes": 3031,
-      "sha256": "4dd4ef9e14b75dd69ef57e0505ad763fb273b0dee2a89639a64d6637f35bfc21"
+      "bytes": 3925,
+      "sha256": "f15a95dd9042350890f04d43fe78ff28c6eeac33100a3886b6b05955150d5f8a"
     },
     {
       "path": "electronics/physical_wiring/assets/aky0107.jpg",
@@ -186,13 +186,18 @@
     },
     {
       "path": "electronics/physical_wiring/build.py",
-      "bytes": 21526,
-      "sha256": "0e1d37fac536c88f887815b929a7bfbb4ebe5e1f2580fe3efc437bfa9292aa9c"
+      "bytes": 16749,
+      "sha256": "a5dad6a91ebe40c99f8cb8b31001096645527b056b5c87386a0a3e2b6ee02c83"
     },
     {
       "path": "electronics/physical_wiring/connections.json",
-      "bytes": 4128,
-      "sha256": "b6330d6096087b6b51412e6dc8f74d4e4bb81fa33ea63fc8014953c85527a02f"
+      "bytes": 4161,
+      "sha256": "1ab30a74d2e207df4d8cd6467c81c14d6bde7581fcd8a4bbbb930fec2484364b"
+    },
+    {
+      "path": "electronics/physical_wiring/page.html",
+      "bytes": 18861,
+      "sha256": "a8a683cbf190e73c6da51310a80683b815034dd76bad0581fe8f16243692b25a"
     },
     {
       "path": "images/D1-interface.png",
@@ -411,23 +416,23 @@
     },
     {
       "path": "site/index.html",
-      "bytes": 11754342,
-      "sha256": "cc176b02d0638c92d9ac3e62b5267c4939ea4d8050dbf6cb2228ab6d2476134f"
+      "bytes": 11756384,
+      "sha256": "adc89ee1829cf2bc4cf8db375ef043f7312b69fe85e24a1aec4fa35042a06f2c"
     },
     {
       "path": "site/wiring/03_physical_connections.pdf",
-      "bytes": 6345398,
-      "sha256": "07e68a8e4292ffa396a886f3c5932ca1f3f9e353c4d221bc25149a8f93dae03f"
+      "bytes": 6308324,
+      "sha256": "827c2dd387678f5bbb21dbcc099048324246d9c6481b0a0629ea695e5f003976"
     },
     {
       "path": "site/wiring/03_physical_connections.svg",
-      "bytes": 1389016,
-      "sha256": "57c64fc079398946993a07c47dce8e7c72b4d5be801caea3d8e6111b3ba14e6c"
+      "bytes": 1388950,
+      "sha256": "7757851b5529ff74429157559f345037902828a55de7cae50f44f54a8008367c"
     },
     {
       "path": "site/wiring/index.html",
-      "bytes": 1397921,
-      "sha256": "d34f8c7f6d384ca3a134388c69dc82e8d3285d28d424169267351485d2d83ba4"
+      "bytes": 1413352,
+      "sha256": "f314ddf96f58df943ce3428d725fb4176ea6e1cf7f935fdbc328eab4dbd9190a"
     },
     {
       "path": "validation.json",

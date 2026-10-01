@@ -10,11 +10,18 @@
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 
 .author-credit{font-size:11px!important;color:#c5cdd2!important;margin:0 0 11px!important;line-height:1.7!important}.author-credit strong{font-weight:600;color:#f2e9e7}.author-credit a{color:#eaa0b5;text-decoration:none}.author-credit a:hover{text-decoration:underline}.loader-mark{letter-spacing:1.5px}.brand{letter-spacing:1px}
+.page-nav{display:flex;align-items:center;gap:4px;padding:4px;border:1px solid #ffffff14;border-radius:9px;background:#10171b66;flex-shrink:0}.page-nav a{display:flex;align-items:center;justify-content:center;gap:8px;padding:9px 14px;border:1px solid transparent;border-radius:6px;font-size:11px;line-height:1.2;color:#aab7bf;text-decoration:none;white-space:nowrap}.page-nav a:hover{color:#fff;background:#ffffff08}.page-nav a[aria-current=page]{color:#f8b2c6;background:#c7456524;border-color:#c745654b}.page-nav svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+/* Shared navigation between the model and wiring explorers. */
+a:focus-visible{outline:2px solid #ed9bb0;outline-offset:4px}.wiring-link{display:block;margin:10px 24px 17px;padding:13px 14px;border:1px solid #c745654b;border-radius:8px;background:#c7456512;color:#f0a9bf;text-decoration:none;font-size:11px;line-height:1.5}.wiring-link:hover{background:#c7456526;color:#ffd0dd}.wiring-link small{display:block;color:#a9b5bd;font-size:9px;margin-top:4px}.wiring-link span{float:right}
+@media(max-width:1100px){.top-meta{display:none}.topbar .quiet{margin-left:auto}}
+@media(max-width:600px){.topbar{height:116px;flex-wrap:wrap;align-content:center;gap:10px 12px;padding:12px 20px}.page-nav{order:4;width:100%;justify-content:center}.page-nav a{flex:1;padding:9px 10px}.workspace{min-height:calc(100dvh - 116px)}}
+
 </style>
 </head>
 <body>
 <header class="topbar">
  <div class="brand"><svg viewBox="0 0 40 32" aria-hidden="true"><path d="M11 18c0-9 18-9 18 0v4H11zM11 18 5 12 3 6m2 6 5-7M29 18l6-6 2-6m-2 6-5-7M11 21l-5 3-3 4m10-5-3 6m19-8 5 3 3 4m-10-5 3 6"/><circle cx="17" cy="15" r="1"/><circle cx="23" cy="15" r="1"/></svg><span>Pinchy<span class="brand-sub">MODEL EXPLORER</span></span></div>
+ <nav class="page-nav" aria-label="Pinchy views"><a href="index.html" aria-current="page"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m10 2 8 4-8 4-8-4 8-4Zm-8 8 8 4 8-4M2 14l8 4 8-4"/></svg>Exploded view</a><a href="wiring/index.html"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 4h6v12h8M9 10h8"/><circle cx="3" cy="4" r="2"/><circle cx="17" cy="10" r="2"/><circle cx="17" cy="16" r="2"/></svg>Wiring</a></nav>
  <div class="top-meta"><span class="dot"></span>Waveshare 30697 · 2.1B<span class="pill">RASPBERRY PLA</span></div>
  <button id="about" class="quiet" aria-label="About this model">About <span>↗</span></button>
 </header>
@@ -48,6 +55,7 @@
   </section>
   <div class="parts-heading"><h3>Model parts <span>16</span></h3><button id="show-all" class="quiet">Show all</button></div>
   <div id="part-list" class="part-list" aria-label="Parts list"></div>
+  <a class="wiring-link" href="wiring/index.html">Trace the connections <span aria-hidden="true">↗</span><small>Open the pin-by-pin wiring explorer</small></a>
   <div class="sidebar-foot"><div><p class="author-credit">Design by <strong>Paweł Manowiecki</strong><br><a href="https://x.com/pawel_mano" target="_blank" rel="noopener noreferrer">X: @pawel_mano</a></p><p>Explosion illustrates the construction.<br>It is not a disassembly sequence.</p></div></div>
  </aside>
 </main>

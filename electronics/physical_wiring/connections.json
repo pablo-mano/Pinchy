@@ -6,16 +6,16 @@
   "microphone": "Adafruit SPH0645 #3421",
   "nets": {
     "v3": {
-      "label": "3V3 · mikrofon",
-      "description": "J9.6 3V3 → mikrofon 3V. Zasilanie mikrofonu 3,3 V.",
+      "label": "3V3 · microphone",
+      "description": "J9.6 3V3 → MIC 3V. Microphone supply: 3.3 V.",
       "endpoints": [
         "J9.6",
         "MIC.3V"
       ]
     },
     "gnd": {
-      "label": "GND · wspólna masa",
-      "description": "J9.5 → MIC.GND; MIC.SEL → MIC.GND. J9.1 → AMP.GND. Masa BAT− jest wspólna przez płytkę.",
+      "label": "GND · common ground",
+      "description": "J9.5 → MIC.GND; MIC.SEL → MIC.GND. J9.1 → AMP.GND. BAT− shares ground through the board.",
       "endpoints": [
         "J9.5",
         "MIC.GND",
@@ -26,7 +26,7 @@
     },
     "bclk": {
       "label": "BCLK · GPIO19",
-      "description": "J9.3 D−/GPIO19 → MIC.BCLK oraz AMP.BCLK. Kropka oznacza rozgałęzienie.",
+      "description": "J9.3 D−/GPIO19 → MIC.BCLK and AMP.BCLK. A dot marks the shared clock branch.",
       "endpoints": [
         "J9.3",
         "MIC.BCLK",
@@ -35,7 +35,7 @@
     },
     "ws": {
       "label": "WS / LRCLK · GPIO20",
-      "description": "J9.4 D+/GPIO20 → MIC.LRCL oraz AMP.LRC. Jeden wspólny zegar ramki.",
+      "description": "J9.4 D+/GPIO20 → MIC.LRCL and AMP.LRC. Both modules share the word clock.",
       "endpoints": [
         "J9.4",
         "MIC.LRCL",
@@ -44,7 +44,7 @@
     },
     "mic": {
       "label": "DOUT · GPIO44 + 100 kΩ",
-      "description": "MIC.DOUT → J9.10 RXD/GPIO44. RPD1 100 kΩ łączy DOUT z GND, równolegle do linii danych.",
+      "description": "MIC.DOUT → J9.10 RXD/GPIO44. RPD1 is a 100 kΩ pull-down between DOUT and GND, not a series resistor.",
       "endpoints": [
         "MIC.DOUT",
         "J9.10",
@@ -53,15 +53,15 @@
     },
     "din": {
       "label": "DIN · GPIO43",
-      "description": "J9.9 TXD/GPIO43 → AMP.DIN. Dane dźwięku z ESP32 do wzmacniacza.",
+      "description": "J9.9 TXD/GPIO43 → AMP.DIN. Audio data travels from the ESP32 to the amplifier.",
       "endpoints": [
         "J9.9",
         "AMP.DIN"
       ]
     },
     "power": {
-      "label": "Zasilanie · do weryfikacji",
-      "description": "BAT+ → J1.1; BAT− → J1.2 po wymianie wtyku i dostosowaniu ładowania. Sieć VCC Waveshare → AMP.VCC dopiero po wskazaniu punktu na PCB i pomiarach.",
+      "label": "Power · verify first",
+      "description": "BAT+ → J1.1; BAT− → J1.2 after replacing the connector and adjusting charging. Connect Waveshare VCC to AMP.VCC only after locating and measuring the supply point.",
       "endpoints": [
         "BAT.+",
         "J1.1",
@@ -72,16 +72,16 @@
       ]
     },
     "spkp": {
-      "label": "SPK+ · głośnik",
-      "description": "AMP.SPK+ → czerwony przewód głośnika. Wyjście mostkowe, nie masa.",
+      "label": "SPK+ · speaker",
+      "description": "AMP.SPK+ → the red speaker lead. This is a bridge output, not ground.",
       "endpoints": [
         "AMP.SPK+",
         "SPK.+"
       ]
     },
     "spkn": {
-      "label": "SPK− · głośnik",
-      "description": "AMP.SPK− → czarny przewód głośnika. Nie łączyć z GND.",
+      "label": "SPK− · speaker",
+      "description": "AMP.SPK− → the black speaker lead. Do not connect it to GND.",
       "endpoints": [
         "AMP.SPK-",
         "SPK.-"

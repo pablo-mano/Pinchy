@@ -1,15 +1,15 @@
 signal,from,to,note
-3V3,J9.6 / 3V3,MIC 3V,"3,3 V"
-GND,J9.5 / GND,MIC GND,Wspólna masa
-SEL,MIC SEL,MIC GND,Kanał lewy
-BCLK,J9.3 / D− / GPIO19,MIC BCLK + AMP BCLK,Rozgałęzienie
-WS,J9.4 / D+ / GPIO20,MIC LRCL + AMP LRC,Rozgałęzienie
-MIC DATA,MIC DOUT,J9.10 / RXD / GPIO44,Dane z mikrofonu
-RPD1,MIC DOUT,100 kΩ → GND,Dodatkowy rezystor; połączenie równoległe
-AMP DATA,J9.9 / TXD / GPIO43,AMP DIN,Dane do wzmacniacza
-AMP GND,J9.1 / GND,AMP GND,Powrót zasilania wzmacniacza
-AMP VCC,Waveshare VCC / U5 VIN / C14,AMP VCC,"Warunkowe: punkt fizyczny i zakres 3,3–5 V do sprawdzenia"
-SPK+,AMP SPK+,Czerwony przewód głośnika,8 Ω / 1 W
-SPK−,AMP SPK−,Czarny przewód głośnika,Nie łączyć z GND
-BAT+,Akyga BAT+,J1.1 BAT,Warunkowe: wtyk i ładowanie do dostosowania
-BAT−,Akyga BAT−,J1.2 GND,Potwierdź polaryzację miernikiem
+3V3,J9.6 / 3V3,MIC 3V,3.3 V
+GND,J9.5 / GND,MIC GND,Common ground
+SEL,MIC SEL,MIC GND,Left channel
+BCLK,J9.3 / D− / GPIO19,MIC BCLK + AMP BCLK,Shared branch
+WS,J9.4 / D+ / GPIO20,MIC LRCL + AMP LRC,Shared branch
+MIC DATA,MIC DOUT,J9.10 / RXD / GPIO44,Microphone data
+RPD1,MIC DOUT,100 kΩ → GND,Additional parallel pull-down resistor
+AMP DATA,J9.9 / TXD / GPIO43,AMP DIN,Amplifier audio data
+AMP GND,J9.1 / GND,AMP GND,Amplifier power return
+AMP VCC,Waveshare VCC / U5 VIN / C14,AMP VCC,Conditional: verify physical tap and 3.3–5 V range
+SPK+,AMP SPK+,Red speaker lead,8 Ω / 1 W
+SPK−,AMP SPK−,Black speaker lead,Do not connect to GND
+BAT+,Akyga BAT+,J1.1 BAT,Conditional: adapt the connector and charge current
+BAT−,Akyga BAT−,J1.2 GND,Verify polarity with a meter

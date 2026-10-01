@@ -2,6 +2,7 @@
 
 - Repository: [pablo-mano/Pinchy](https://github.com/pablo-mano/Pinchy)
 - Interactive explorer: [pablo-mano.github.io/Pinchy](https://pablo-mano.github.io/Pinchy/)
+- Interactive wiring: [pablo-mano.github.io/Pinchy/wiring/](https://pablo-mano.github.io/Pinchy/wiring/)
 - Deployment runs: [Publish Pinchy explorer](https://github.com/pablo-mano/Pinchy/actions/workflows/pages.yml)
 
 The workflow publishes only `site/` from `main`. `index.html` bundles the model, renderer and styles; no Node build, API key or backend is required. Print files and videos remain repository downloads. Firmware is [TODO](../TODO.md), with no device source code or binaries included.
@@ -9,8 +10,9 @@ The workflow publishes only `site/` from `main`. `index.html` bundles the model,
 ## Update the published page
 
 1. Update `site/index.html`, preserving its embedded assets and attribution.
-2. Commit and push the update to `main`.
-3. Check the Pages workflow above. A successful deployment updates the same public URL.
+2. For the wiring explorer, edit `electronics/physical_wiring/page.html` and/or `build.py`, then run `python3 electronics/physical_wiring/build.py` with Pillow installed. This refreshes the repository HTML and the Pages HTML/SVG. After drawing changes, also regenerate the PNG and A3 PDF and copy the PDF into `site/wiring/`. Preserve the relative navigation links between both explorers.
+3. Refresh `manifest.json` file sizes and SHA-256 hashes, then commit and push the update to `main`.
+4. Check the Pages workflow above. A successful deployment updates the same public URL.
 
 Pages uses **Settings → Pages → Build and deployment → Source: GitHub Actions**. To redeploy without another content change, open **Actions → Publish Pinchy explorer → Run workflow** on `main`.
 

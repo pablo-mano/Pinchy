@@ -1,29 +1,40 @@
-# Diagram fotograficzny Pinchy — 01.10.2026
+# Pinchy photo wiring explorer — 1 October 2026
 
-Pliki `../03_physical_connections.*` pokazują rzeczywiste moduły, ich pady i proponowane połączenia. HTML działa lokalnie bez sieci, pozwala podświetlić jeden sygnał i powiększyć rysunek; zawiera również tabelę połączeń i źródła. PDF to jedna strona A3 poziomo. SVG zawiera osadzone fotografie i wektorowe przewody oraz opisy. PNG ma 4800 × 3420 pikseli.
+The `../03_physical_connections.*` files show physical modules, pads and proposed connections. The English interactive page uses the same charcoal background, raspberry accents, navigation and sidebar layout as the 3D explorer. The two pages link to each other. The drawings, connection table and PDF / SVG downloads are also in English.
 
-## Wariant sprzętu
+## Files and controls
 
-- Waveshare ESP32-S3-Touch-LCD-2.1B / 30697: fotografia referencyjna tylnej płytki wariantu 2.1, wspólny opublikowany schemat; przed lutowaniem sprawdzić rewizję.
-- Mikrofon Adafruit SPH0645 #3421, widok od strony portu akustycznego.
-- DFRobot DFR0954 MAX98357A: założenie na podstawie listy zakupowej, jeszcze niepotwierdzone osobno przez użytkownika. Układ padów odpowiada DFR0954, nie Adafruit #3006.
-- Głośnik Kamami 560816, 8 Ω / 1 W.
-- Akumulator potwierdzony przez użytkownika: Akyga AKY0107 / LP503759, 3,7 V / 1350 mAh, PCM, fabryczny JST 2,54 mm.
+- `page.html`: self-contained page template, styles and interaction code.
+- `build.py`: generates the English HTML, SVG, CSV and `connections.json`; requires Python 3 and Pillow. If the repository has a `site/` directory, it also updates `site/wiring/index.html` and the downloadable SVG, with the correct relative link back to the model.
+- `assets/`: source photographs and the manufacturer rendering, embedded in the SVG and HTML.
+- PDF: one landscape A3 page. PNG: 4800 × 3420 pixels. These are exported from the generated SVG using Sharp and ReportLab, and must be refreshed after changing the drawing. Copy the PDF to `site/wiring/` too.
 
-## Granice weryfikacji
+Choose a signal from the sidebar or click a wire to highlight that signal. **Show all** resets the selection. **Fit view** fits the full drawing inside the viewport; the percentage is relative to that fitted size. Zoom reaches 400%; scroll to explore the enlarged sheet. The table and source references remain available below the workspace.
 
-Diagram jest propozycją do testu na stole. Połączenia J9 oparto na schemacie producenta; rozwinięcia J9 i J1 nie są widokami strony wtyku. Nie wyznaczono fizycznego punktu lutowania VCC. Dostosowanie ładowania oraz pomiary VCC, prądu i działania I²S pozostają konieczne przed zatwierdzeniem prototypu. Linie przerywane zasilania oznaczają ten warunek. Szary łącznik do fabrycznego wtyku baterii jest odnośnikiem opisowym, nie przewodem elektrycznym.
+The root SVG alone scales with its container. Nested image viewports keep their documented dimensions so that the photographed pads remain aligned with the wire endpoints.
 
-Rezystor 100 kΩ łączy DOUT z GND. Nie jest w szeregu z DOUT ani połączony z przecinającą rysunek linią BCLK. Połączenia elektryczne na skrzyżowaniach oznaczają wyłącznie kropki.
+## Hardware variant
 
-Sprawdzono wygląd eksportu PNG, format PDF A3 oraz działanie HTML w przeglądarce: podświetlenie BCLK, powiększenie 150%, powrót do dopasowania i wszystkich połączeń. Nie wykonano pomiarów sprzętu.
+- Waveshare ESP32-S3-Touch-LCD-2.1B / 30697: a rear PCB reference photo from the 2.1 product page and the shared published schematic. Check the actual board revision before soldering.
+- Adafruit SPH0645 #3421 microphone, sound-port side.
+- DFRobot DFR0954 MAX98357A: assumed from the shopping list, not separately confirmed by the owner. The pad layout is for DFR0954, not Adafruit #3006.
+- Kamami 560816 speaker, 8 Ω / 1 W.
+- Confirmed battery: Akyga AKY0107 / LP503759, 3.7 V / 1350 mAh, PCM, factory JST 2.54 mm connector.
 
-## Źródła
+The 3D explorer still contains earlier Adafruit reference geometry. Linking the two pages does not validate the new components' mechanical fit.
 
-- [Waveshare: dokumentacja](https://docs.waveshare.com/ESP32-S3-Touch-LCD-2.1) i [schemat](https://files.waveshare.com/wiki/ESP32-S3-Touch-LCD-2.1/ESP32-S3-Touch-LCD-2.1_schematic_diagram.pdf).
-- [Adafruit #3421: piny](https://learn.adafruit.com/adafruit-i2s-mems-microphone-breakout/pinouts) i [Knowles: karta SPH0645, s. 7](https://cdn-shop.adafruit.com/product-files/3421/i2S%20Datasheet.PDF#page=7).
-- [DFRobot DFR0954: moduł i piny](https://wiki.dfrobot.com/dfr0954/).
-- [Akyga AKY0107: karta parametrów](https://www.tme.eu/Document/d09d785c980e096e8a2305b0492fc05e/AKY0107.pdf).
-- Fotografie baterii i głośnika: karty produktów Kamami 1202750 i 560816, podlinkowane w HTML. Pozostałe zdjęcia / render pochodzą od Waveshare, Adafruit i DFRobot. Prawa do materiałów pozostają przy właścicielach.
+## Validation limits
 
-`build.py` generuje HTML, SVG, CSV oraz `connections.json`; wymaga Python 3 i Pillow. Pliki w `assets/` są lokalnymi źródłami ilustracji. Raster PNG wyeksportowano z SVG za pomocą Sharp, PDF utworzono z PNG za pomocą ReportLab. Po zmianie źródła należy odświeżyć także oba eksporty.
+This remains a bench-test proposal. J9 pin numbers come from the manufacturer schematic; the J9 and J1 expansions are not connector-face views. The physical VCC solder point has not been identified. Charging must be adapted and VCC, current and I²S behavior measured before validating the prototype. Dashed power connections mark these conditions. The gray leader to the factory battery plug is an annotation, not an electrical wire.
+
+The 100 kΩ resistor connects DOUT to GND, not in series with DOUT and not to the crossing BCLK line. Only dots mark electrical junctions.
+
+Browser checks cover desktop and phone layouts, navigation in both directions, sidebar and wire selection, zoom, reset and table access. The 3D model/renderer and the SVG wire geometry are unchanged by this interface update. No electrical measurements have been performed.
+
+## Sources
+
+- [Waveshare documentation](https://docs.waveshare.com/ESP32-S3-Touch-LCD-2.1) and [schematic](https://files.waveshare.com/wiki/ESP32-S3-Touch-LCD-2.1/ESP32-S3-Touch-LCD-2.1_schematic_diagram.pdf).
+- [Adafruit #3421 pinout](https://learn.adafruit.com/adafruit-i2s-mems-microphone-breakout/pinouts) and [Knowles SPH0645 datasheet, p. 7](https://cdn-shop.adafruit.com/product-files/3421/i2S%20Datasheet.PDF#page=7).
+- [DFRobot DFR0954 module and pinout](https://wiki.dfrobot.com/dfr0954/).
+- [Akyga AKY0107 datasheet](https://www.tme.eu/Document/d09d785c980e096e8a2305b0492fc05e/AKY0107.pdf).
+- Battery and speaker photos: Kamami product pages 1202750 and 560816, linked in the HTML. Other photos / rendering: Waveshare, Adafruit and DFRobot. Rights remain with their owners.
