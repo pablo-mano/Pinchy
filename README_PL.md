@@ -14,6 +14,8 @@ Malinowy towarzysz biurkowy w kształcie kraba, oparty na **Waveshare ESP32-S3-T
 
 ## Co jest w repozytorium
 
+- **[Fotograficzny diagram połączeń — interaktywny](https://pablo-mano.github.io/Pinchy/wiring/)** · [PNG](electronics/03_physical_connections.png) · [PDF A3](electronics/03_physical_connections.pdf) · [SVG](electronics/03_physical_connections.svg) · [źródła i założenia](electronics/physical_wiring/README.md). Wariant z baterią Akyga LP503759 1350 mAh i wzmacniaczem DFRobot DFR0954; połączenia wymagają testów na stole.
+
 - **4 aktualne projekty 3MF** dla Bambu Lab P2S, dysza 0,4 mm, Generic PLA, skala 100%: [próbnik i przyciski](printing/plates/01_B_Proba_i_przyciski_P2S_PLA.3mf), [obudowa](printing/plates/02_B_Obudowa_P2S_PLA.3mf), [podstawa i szczypce](printing/plates/03_B_Nogi_i_szczypce_P2S_PLA.3mf), [próbnik D1](printing/plates/04_D1_Proba_mocowania_P2S_PLA.3mf).
 - [STL](printing/stl/) i [STEP](printing/step/) części drukowanych, w tym szablon do własnych podstaw D1.
 - [Samodzielna strona HTML](site/index.html) z obrotem modelu, rozstrzeleniem, opisami 16 grup i podglądem D1.

@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-01",
+  "status": "proposed_unmeasured",
+  "battery_confirmed_by_user": "Akyga AKY0107 LP503759 3.7V 1350mAh",
+  "amplifier_assumption": "DFRobot DFR0954, procurement-list variant; not separately confirmed by user",
+  "microphone": "Adafruit SPH0645 #3421",
+  "nets": {
+    "v3": {
+      "label": "3V3 · mikrofon",
+      "description": "J9.6 3V3 → mikrofon 3V. Zasilanie mikrofonu 3,3 V.",
+      "endpoints": [
+        "J9.6",
+        "MIC.3V"
+      ]
+    },
+    "gnd": {
+      "label": "GND · wspólna masa",
+      "description": "J9.5 → MIC.GND; MIC.SEL → MIC.GND. J9.1 → AMP.GND. Masa BAT− jest wspólna przez płytkę.",
+      "endpoints": [
+        "J9.5",
+        "MIC.GND",
+        "MIC.SEL",
+        "J9.1",
+        "AMP.GND"
+      ]
+    },
+    "bclk": {
+      "label": "BCLK · GPIO19",
+      "description": "J9.3 D−/GPIO19 → MIC.BCLK oraz AMP.BCLK. Kropka oznacza rozgałęzienie.",
+      "endpoints": [
+        "J9.3",
+        "MIC.BCLK",
+        "AMP.BCLK"
+      ]
+    },
+    "ws": {
+      "label": "WS / LRCLK · GPIO20",
+      "description": "J9.4 D+/GPIO20 → MIC.LRCL oraz AMP.LRC. Jeden wspólny zegar ramki.",
+      "endpoints": [
+        "J9.4",
+        "MIC.LRCL",
+        "AMP.LRC"
+      ]
+    },
+    "mic": {
+      "label": "DOUT · GPIO44 + 100 kΩ",
+      "description": "MIC.DOUT → J9.10 RXD/GPIO44. RPD1 100 kΩ łączy DOUT z GND, równolegle do linii danych.",
+      "endpoints": [
+        "MIC.DOUT",
+        "J9.10",
+        "RPD1.1"
+      ]
+    },
+    "din": {
+      "label": "DIN · GPIO43",
+      "description": "J9.9 TXD/GPIO43 → AMP.DIN. Dane dźwięku z ESP32 do wzmacniacza.",
+      "endpoints": [
+        "J9.9",
+        "AMP.DIN"
+      ]
+    },
+    "power": {
+      "label": "Zasilanie · do weryfikacji",
+      "description": "BAT+ → J1.1; BAT− → J1.2 po wymianie wtyku i dostosowaniu ładowania. Sieć VCC Waveshare → AMP.VCC dopiero po wskazaniu punktu na PCB i pomiarach.",
+      "endpoints": [
+        "BAT.+",
+        "J1.1",
+        "BAT.-",
+        "J1.2",
+        "WAVE.VCC_UNVERIFIED",
+        "AMP.VCC"
+      ]
+    },
+    "spkp": {
+      "label": "SPK+ · głośnik",
+      "description": "AMP.SPK+ → czerwony przewód głośnika. Wyjście mostkowe, nie masa.",
+      "endpoints": [
+        "AMP.SPK+",
+        "SPK.+"
+      ]
+    },
+    "spkn": {
+      "label": "SPK− · głośnik",
+      "description": "AMP.SPK− → czarny przewód głośnika. Nie łączyć z GND.",
+      "endpoints": [
+        "AMP.SPK-",
+        "SPK.-"
+      ]
+    }
+  },
+  "j9": {
+    "12": "GPIO0",
+    "11": "NC / GND*",
+    "10": "RXD / GPIO44",
+    "9": "TXD / GPIO43",
+    "8": "SDA / GPIO15",
+    "7": "SCL / GPIO7",
+    "6": "3V3",
+    "5": "GND",
+    "4": "D+ / GPIO20",
+    "3": "D− / GPIO19",
+    "2": "VBUS / 5V",
+    "1": "GND"
+  },
+  "mic_photo_anchors": {
+    "SEL": [
+      1657.877192982456,
+      305.3661971830986
+    ],
+    "LRCL": [
+      1657.877192982456,
+      359.7323943661972
+    ],
+    "DOUT": [
+      1657.877192982456,
+      415.18591549295775
+    ],
+    "BCLK": [
+      1657.877192982456,
+      470.6394366197183
+    ],
+    "GND": [
+      1657.877192982456,
+      525.0056338028169
+    ],
+    "3V": [
+      1657.877192982456,
+      580.4591549295774
+    ]
+  },
+  "amp_photo_anchors": {
+    "VCC": [
+      1478.7164179104477,
+      1214.1741293532339
+    ],
+    "GND": [
+      1478.7164179104477,
+      1157.4776119402986
+    ],
+    "LRC": [
+      1478.7164179104477,
+      1100.7810945273632
+    ],
+    "BCLK": [
+      1478.7164179104477,
+      1042.9800995024875
+    ],
+    "DIN": [
+      1478.7164179104477,
+      986.2835820895523
+    ],
+    "SPK+": [
+      1478.7164179104477,
+      929.5870646766169
+    ],
+    "SPK-": [
+      1789.4427860696517,
+      929.5870646766169
+    ]
+  },
+  "limitations": [
+    "VCC solder point has not been identified on physical PCB.",
+    "Battery charge current must be adapted and measured before USB charging.",
+    "Diagram requires bench validation of I2S/UART mux and GPIO assignment.",
+    "J9 pin numbers are logical, not connector face or wire-colour instructions."
+  ]
+}

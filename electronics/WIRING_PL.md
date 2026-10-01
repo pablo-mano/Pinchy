@@ -1,5 +1,7 @@
 # Pinchy — diagram połączeń i plan wiązki
 
+**Nowy diagram fotograficzny (01.10.2026):** [wersja interaktywna](https://pablo-mano.github.io/Pinchy/wiring/) · [PNG](03_physical_connections.png) · [PDF A3](03_physical_connections.pdf) · [SVG](03_physical_connections.svg) · [źródła i założenia](physical_wiring/README.md). Uwzględnia potwierdzoną baterię Akyga AKY0107 / LP503759 1350 mAh, wzmacniacz DFRobot DFR0954 przyjęty z listy zakupowej i głośnik Kamami 560816. Przerywane połączenia zasilania wymagają weryfikacji. Poniższy wcześniejszy opis dotyczy wariantu z referencyjnymi częściami Adafruit.
+
 **Wariant do zbudowania i sprawdzenia na stole, nie potwierdzony montaż elektryczny.** Dotyczy Waveshare ESP32-S3-Touch-LCD-2.1B / 30697, mikrofonu Adafruit SPH0645 #3421, wzmacniacza MAX98357A #3006, głośnika 8 Ω / 1 W #3923 i chronionego LiPo 1S. Rysunki są schematami połączeń, nie widokiem pinów wtyczki; stronę pin 1 należy ustalić na fizycznej płytce.
 
 ![Diagram połączeń](01_connection_diagram.png)

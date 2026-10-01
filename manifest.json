@@ -6,13 +6,13 @@
   "mechanical_revision": "B/D1; Waveshare 30697",
   "physical_build_validated": false,
   "note": "SHA-256 entries cover all package files except this manifest itself. Original mechanical part identifiers are preserved.",
-  "file_count_excluding_manifest": 76,
-  "bytes_excluding_manifest": 133141978,
+  "file_count_excluding_manifest": 92,
+  "bytes_excluding_manifest": 157727794,
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 104,
-      "sha256": "71f35e2b38844489bdb3e039eb5c17426d8c9466c045f5509555bd5acaca1950"
+      "bytes": 131,
+      "sha256": "f2ec599dbf8ad3c0e8d7ea7b23c5f3d5559ad0a6682565233092219c40fef397"
     },
     {
       "path": ".github/workflows/pages.yml",
@@ -26,18 +26,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 5199,
-      "sha256": "bb9a4469a6e82fdd283cbcd01ef90287e03af272efdb4e4321cd8e0aa81ab5b0"
+      "bytes": 5631,
+      "sha256": "a87702d95c8acd26716a8d5ce80ef460a673836713f3d03ac2341a88a44c9784"
     },
     {
       "path": "README_PL.md",
-      "bytes": 3198,
-      "sha256": "ca0e74f7b7cb9cfa0a9bc9127691f34d9c86701236c6904c7c334fe3e411aaf9"
+      "bytes": 3641,
+      "sha256": "f0dde870460a974eff7748444d90db99a906b0e260e276879914cac1fbe7450d"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 2837,
-      "sha256": "a6b1f5c5c0f13905ab74fce03bd6c327b11bcecea756aef0f0979008c45a9a6f"
+      "bytes": 3468,
+      "sha256": "3c070dcfda1c543df445d04facc2be9a88d1c799aa14d641a3af5c9ec867d211"
     },
     {
       "path": "TODO.md",
@@ -95,6 +95,31 @@
       "sha256": "3020949fffbdd49483f45cdba23ac5b3f397da13d73538bbc08b88dcd67f916c"
     },
     {
+      "path": "electronics/03_physical_connections.csv",
+      "bytes": 844,
+      "sha256": "dacd0a3813796395320f001bdd4c1fa1e8833b4930a1197949fa661796cf8924"
+    },
+    {
+      "path": "electronics/03_physical_connections.html",
+      "bytes": 1397921,
+      "sha256": "d34f8c7f6d384ca3a134388c69dc82e8d3285d28d424169267351485d2d83ba4"
+    },
+    {
+      "path": "electronics/03_physical_connections.pdf",
+      "bytes": 6345398,
+      "sha256": "07e68a8e4292ffa396a886f3c5932ca1f3f9e353c4d221bc25149a8f93dae03f"
+    },
+    {
+      "path": "electronics/03_physical_connections.png",
+      "bytes": 5764933,
+      "sha256": "f31d0572acdded187f3df7860e52ed153cf12471f7f4316fcaf5eb1c36ecd5df"
+    },
+    {
+      "path": "electronics/03_physical_connections.svg",
+      "bytes": 1389016,
+      "sha256": "57c64fc079398946993a07c47dce8e7c72b4d5be801caea3d8e6111b3ba14e6c"
+    },
+    {
       "path": "electronics/BOM.csv",
       "bytes": 3838,
       "sha256": "da4be06be9295f36ccf527af8fba397f4f49ddc908378bb8e70238238fb79a9f"
@@ -111,13 +136,13 @@
     },
     {
       "path": "electronics/WIRING.md",
-      "bytes": 6154,
-      "sha256": "68beb6237868f434cf01950e631118438b69e6bd3aff056c48c4fccc0d17aa37"
+      "bytes": 6751,
+      "sha256": "f3ddeebf3b25c6e28de039437b3711eaec8db1970a426252874e0a71e51d13c8"
     },
     {
       "path": "electronics/WIRING_PL.md",
-      "bytes": 8596,
-      "sha256": "a40c0a06dc481a69ce1baed6a0d930ed25e9b2f035984b659bd4ee1a2c9967a7"
+      "bytes": 9177,
+      "sha256": "82ec478c20928be2f3fbe8cdcaf5293b3b6b2cd2ef16b6e0a22826251ac27f42"
     },
     {
       "path": "electronics/cable_routes.json",
@@ -128,6 +153,46 @@
       "path": "electronics/connections.csv",
       "bytes": 1051,
       "sha256": "df222608440ec8f3e1bc76085b79cbd3f53414eee98a922e65bc4162f41aed6e"
+    },
+    {
+      "path": "electronics/physical_wiring/README.md",
+      "bytes": 3031,
+      "sha256": "4dd4ef9e14b75dd69ef57e0505ad763fb273b0dee2a89639a64d6637f35bfc21"
+    },
+    {
+      "path": "electronics/physical_wiring/assets/aky0107.jpg",
+      "bytes": 72551,
+      "sha256": "406979b7529cadc3542fc5f6f1c54e344eed9d2bb5e172f20f3c8d5faa87dd41"
+    },
+    {
+      "path": "electronics/physical_wiring/assets/dfr0954-pinout.webp",
+      "bytes": 95616,
+      "sha256": "71c92de9e0881a263797b02178715c65723effb7f9cab63ea140fc3d37e5e2e8"
+    },
+    {
+      "path": "electronics/physical_wiring/assets/microphone-pins.jpg",
+      "bytes": 256984,
+      "sha256": "c9817f18bb53f8d19d66dc7b8ca826b92a0f830ecf5bfb002bc0842bd274fd4e"
+    },
+    {
+      "path": "electronics/physical_wiring/assets/speaker.jpg",
+      "bytes": 16187,
+      "sha256": "7d3bb88f4de1e3ab60910a7c07d4d0182ef8354009cde03f0a8c556ff309d16f"
+    },
+    {
+      "path": "electronics/physical_wiring/assets/waveshare-rear.jpg",
+      "bytes": 82635,
+      "sha256": "224ee5042a718a7c6694c70076d07eb138d2ac79a63386a9ccb39dc299cff986"
+    },
+    {
+      "path": "electronics/physical_wiring/build.py",
+      "bytes": 21526,
+      "sha256": "0e1d37fac536c88f887815b929a7bfbb4ebe5e1f2580fe3efc437bfa9292aa9c"
+    },
+    {
+      "path": "electronics/physical_wiring/connections.json",
+      "bytes": 4128,
+      "sha256": "b6330d6096087b6b51412e6dc8f74d4e4bb81fa33ea63fc8014953c85527a02f"
     },
     {
       "path": "images/D1-interface.png",
@@ -350,6 +415,21 @@
       "sha256": "cc176b02d0638c92d9ac3e62b5267c4939ea4d8050dbf6cb2228ab6d2476134f"
     },
     {
+      "path": "site/wiring/03_physical_connections.pdf",
+      "bytes": 6345398,
+      "sha256": "07e68a8e4292ffa396a886f3c5932ca1f3f9e353c4d221bc25149a8f93dae03f"
+    },
+    {
+      "path": "site/wiring/03_physical_connections.svg",
+      "bytes": 1389016,
+      "sha256": "57c64fc079398946993a07c47dce8e7c72b4d5be801caea3d8e6111b3ba14e6c"
+    },
+    {
+      "path": "site/wiring/index.html",
+      "bytes": 1397921,
+      "sha256": "d34f8c7f6d384ca3a134388c69dc82e8d3285d28d424169267351485d2d83ba4"
+    },
+    {
       "path": "validation.json",
       "bytes": 1826,
       "sha256": "0771c2483c73325c5c9f681a5f974f0f70d56034b015acf8c5143c739731f7e2"
@@ -389,5 +469,6 @@
       "bytes": 1293,
       "sha256": "b87ca84b06c27fd5a03df4419e9e9280f76409294e4270ce318fa84d9838f658"
     }
-  ]
+  ],
+  "updated_date": "2026-10-01"
 }

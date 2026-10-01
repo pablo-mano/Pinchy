@@ -58,6 +58,8 @@ Both editions include the “Hey Pinchy!” wake phrase, OpenAI TTS voices, the 
 
 ## Build documentation
 
+- **[Photo wiring diagram (interactive)](https://pablo-mano.github.io/Pinchy/wiring/)** · [PNG](electronics/03_physical_connections.png) · [PDF A3](electronics/03_physical_connections.pdf) · [SVG](electronics/03_physical_connections.svg) · [source and assumptions](electronics/physical_wiring/README.md). Includes the Akyga LP503759 1350 mAh battery and the DFRobot DFR0954 amplifier variant; bench validation remains pending.
+
 - [BOM with quantities and fit status](electronics/BOM.md) · [CSV](electronics/BOM.csv).
 - [Wiring guide](electronics/WIRING.md) · [diagram SVG](electronics/01_connection_diagram.svg) · [diagram PNG](electronics/01_connection_diagram.png) · [netlist CSV](electronics/connections.csv).
 - [Cable routing SVG](electronics/02_cable_routing_plan.svg) · [routing coordinates](electronics/cable_routes.json) · [3D cable study](electronics/Pinchy_cable_plan.glb).

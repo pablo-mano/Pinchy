@@ -1,5 +1,7 @@
 # Pinchy — proposed wiring and cable routing
 
+**New photo diagram (1 October 2026):** [interactive view](https://pablo-mano.github.io/Pinchy/wiring/) · [PNG](03_physical_connections.png) · [PDF A3](03_physical_connections.pdf) · [SVG](03_physical_connections.svg) · [source and assumptions](physical_wiring/README.md). This variant uses the confirmed Akyga AKY0107 / LP503759 1350 mAh pack, the procurement-list DFRobot DFR0954 amplifier (not separately confirmed) and the Kamami 560816 speaker. Dashed power connections require verification. The earlier diagrams and battery-specific details below describe the Adafruit reference parts.
+
 [Polski: pełna instrukcja](WIRING_PL.md) · [BOM](BOM.md) · [Netlist CSV](connections.csv)
 
 This is a **bench-test proposal**, not an electrically validated assembly. The connector numbers below come from the published Waveshare schematic; the drawing is not a connector-face view. Establish pin 1 and continuity on the actual **30697 / 2.1B** board.

@@ -8,6 +8,10 @@ No blanket open-source license for the original Pinchy design files has been sel
 
 The self-contained explorer embeds **Three.js 0.180.0**, distributed under MIT. Its copyright/license notice is included in the HTML and in [THREE_MIT.txt](licenses/THREE_MIT.txt). Source: [Three.js](https://github.com/mrdoob/three.js).
 
+## Photographic wiring diagram
+
+The photo-based wiring sheet and its interactive page include reference images from **Waveshare** (ESP32-S3-Touch-LCD-2.1 rear PCB), **Adafruit** (SPH0645 #3421), **DFRobot** (DFR0954 module rendering) and **Kamami** (Akyga AKY0107 battery and speaker 560816 product photos). The source images are cropped or rotated for presentation; the diagram adds pin labels and proposed connections. Copyright and any applicable terms remain with their respective rights holders; no new license to those images is asserted. [Sources, assumptions and validation limits](electronics/physical_wiring/README.md).
+
 ## Hardware reference geometry
 
 - **Waveshare ESP32-S3-Touch-LCD-2.1B:** reference geometry derived from the official manufacturer drawing archive. The embedded simplified viewing model represents the purchased board/display, not a printable replacement. [Manufacturer resources](https://docs.waveshare.com/ESP32-S3-Touch-LCD-2.1/Resources-And-Documents) · [B drawing archive](https://files.waveshare.com/wiki/ESP32-S3-Touch-LCD-2.1/ESP32-S3-Touch-LCD-2.1B-Drawing.zip). No new license for Waveshare material is asserted here.
